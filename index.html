@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  
+/* 按钮容器样式 */
+.btn-container {
+  display: flex;
+  gap: 20px;
+  margin: 50px;
+  justify-content: center;
+}
+
+/* 基础按钮样式 */
+.custom-btn {
+  display: inline-block;
+  padding: 15px 35px;
+  text-decoration: none;
+  border-radius: 30px;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* 按钮1样式 */
+.btn-primary {
+  background: linear-gradient(135deg, #ff6b6b, #ff8e8e);
+  color: white;
+  border: 2px solid #ff5252;
+}
+
+/* 按钮2样式 */
+.btn-secondary {
+  background: linear-gradient(135deg, #4ecdc4, #88dacf);
+  color: #2d3436;
+  border: 2px solid #45b7af;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #ff6b6b, #ff8e8e);
+  color: white;
+  border: 2px solid #ff5252;
+}
+
+/* 悬停效果 */
+.btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(255, 107, 107, 0.3);
+}
+
+.btn-secondary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(78, 205, 196, 0.3);
+}
+
+/* 点击效果 */
+.custom-btn:active {
+  transform: translateY(1px);
+}
+</style>
+</head>
+<body>
+    
+    <h1 align="center">您好</h1>
+        <h1>
+            
+        <h1 align="center">欢迎您访问我的主页</h1><br>
+
+<div class="btn-container">
+  <!-- 按钮1 -->
+  <a href="https://space.bilibili.com/372603707?spm_id_from=333.1007.0.0" class="custom-btn btn-primary">
+    打开<u>敬业的陈C</u>的B站
+  </a>
+
+  <!-- 按钮2 -->
+  <a href="https://afdian.com/a/chentongs" class="custom-btn btn-secondary">
+    打开<u>敬业的陈C</u>的爱发电
+  </a>
+
+  <a href="https://space.bilibili.com/175533035?spm_id_from=333.1387.fans.user_card.click" class="custom-btn btn-secondary">
+    <u>友情链接</u>
+  </a>
+</div>
+
+</body>
+</html>
